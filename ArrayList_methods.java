@@ -16,5 +16,8 @@ public class Main
 	    System.out.println(al);
 	    System.out.println(al.indexOf(4));
 	    System.out.println(al.lastIndexOf(54));
+	    System.out.println(al.isEmpty());
+	    al.clear();
+	    System.out.println(al.isEmpty());	
 	}
 }
